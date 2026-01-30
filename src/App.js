@@ -1,0 +1,13 @@
+import "./App.css";
+import PlayersList from "./PlayersList";
+
+function App() {
+  return (
+    <div className="App">
+      {/* Render the PlayersList component */}
+      <PlayersList />
+    </div>
+  );
+}
+
+export default App;
